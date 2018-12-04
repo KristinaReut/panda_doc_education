@@ -1,0 +1,6 @@
+__MACOSX/
+.idea/
+.eslintcache
+node_modules/
+.vscode/
+.npmrc
