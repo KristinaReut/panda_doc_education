@@ -1,9 +1,11 @@
 body {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
+    font-weight: 500;
     margin: 0;
+    max-width: 1600px;
     padding: 0;
-    width: 1600px;
+    width: 100%;
 }
 ul {
     margin: 0;
@@ -20,16 +22,16 @@ a {
     height: 961px;
 }
 .top-menu {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    margin: auto;
     padding-top: 32px;
-    margin-left: 205px;
-    margin-right: 203px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);;
     height: 60px;
+    width: 80%;
 }
 .top-menu:after {
     content: "";
-    display: table;
     clear: both;
+    display: table;
 }
 .logo {
     display: inline-block;
@@ -38,40 +40,39 @@ a {
     cursor: pointer;
 }
 .menu-main {
-    padding-top: 7px;
     float: right;
+    padding-top: 7px;
 }
 .menu-main li {
     display: inline-block;
 }
 .menu-main a {
-    margin-left: 68px;
     color: #ffffff;
+    margin-left: 68px;
 }
 .menu-main a:hover, a:active {
     border-bottom: 1px solid #ffffff;
     padding-bottom: 34px;
 }
 .header-text {
-    position: absolute;
-    width: 443px;
-    top: 400px;
-    left: 578px;
-    text-align: center;
     color: #ffffff;
+    left: 35%;
+    position: absolute;
+    top: 436px;
+    text-align: center;
+    width: 443px;
 }
 .header-text h1 {
-    font-size: 72px;
-    line-height: 30px;
     font-family: myriad-pro,sans-serif;
+    font-size: 72px;
     font-weight: 700;
-    font-style: normal;
-    text-transform: uppercase;
+    line-height: 30px;
     margin-bottom: 20px;
+    text-transform: uppercase;
 }
 .header-text p {
-    font-size: 32px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 32px;
     font-style: italic;
     line-height: 47px;
 } 
@@ -80,15 +81,15 @@ a {
     height: 121px; 
 }
 .header-buttons button {
-    cursor: pointer;
-    height: 100%;
-    width: 50%;
-    float: left;
-    box-sizing: border-box;
-    font-size: 19px;
-    color: #ffffff;
-    text-transform: uppercase;
     border: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 19px;
+    float: left;
+    height: 100%;
+    text-transform: uppercase;
+    width: 50%;
 }
 button:hover, button:active {
     border: none;
@@ -100,13 +101,15 @@ button:hover, button:active {
     background-image: linear-gradient(-60deg,rgba(57, 208, 131, 0.91) 88.5%, rgba(32, 55, 71, 0.91) 75.5%);
 }
 .domain {
+    width: 80%;
+    margin: auto;
     height: 578px;
     background-color: white;
     text-align: center;
+    font-weight: 400;
 }
 .domain h2 {
     font-size: 24px;
-    font-weight: 400px;
     padding-top: 87px;
     padding-bottom: 27px;
     margin: 0px;
@@ -115,6 +118,7 @@ button:hover, button:active {
     color: #a2a2a2;
     padding-bottom: 43px;
     margin: 0px;
+    font-weight: 400;
     font-family: Montserrat, sans-serif;
 }
 .domain table {
@@ -177,9 +181,9 @@ button:hover, button:active {
     height: 765px;
     background-image: url(images/packages-photo.png);
     background-repeat: no-repeat;
-    padding-right: 200px;
+    padding-right: 10%;
     padding-top: 100px;
-    padding-left: 200px;
+    padding-left: 10%;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
@@ -295,8 +299,9 @@ button:hover, button:active {
 .about-us {
     display: flex;
     border-top: 2px dotted #d4d4d4;
-    margin: 0 200px 106px 207px;
-    padding-top: 107px;
+    width: 80%;
+    margin: auto;
+    padding: 107px 0;
 }
 .description {
     float: left;
@@ -343,15 +348,6 @@ button:hover, button:active {
 .our-team .active {
     color: #1f89ba;
 }
-.package {
-    width: 255px;
-    height: 560px;
-    padding-top: 42px;
-    background-color: white;
-    border-top: 5px solid;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
-    text-align: center;
-}
 .comments {
     height: 190px;
     background-image: url(images/comments.png);
@@ -369,7 +365,7 @@ button:hover, button:active {
 .comments div {
     position: absolute;
     top: 110px;
-    left: 870px;
+    left: 55%;
 }
 .comments li {
     display: inline-block;
@@ -385,9 +381,9 @@ button:hover, button:active {
 .servers {
     height: 342px;
     display: flex;
-    padding-left: 201px;
+    width: 80%;
+    margin: auto;
     justify-content: space-between;
-    padding-right: 282px;
 }
 .server {
     display: flex;
@@ -432,44 +428,13 @@ button:hover, button:active {
     background-color: #f1540f;
 }
 footer {
-    padding-left: 201px;
     height: 294px;
     background-color: #2a2a2a;
 }
-.footer-bottom {
-    display: flex;
-    padding-top: 56px;
-}
-.area1 {
-    padding-right: 84px;
-    width: 377px;
-    height: 106px;
-    border-right: 1px solid #393939;
-    line-height: 26px;
-}
-.area2 {
-    padding: 0 69px;
-    margin: 0;
-    height: 150px;
-    column-count: 2;
-    column-gap: 69px;
-    column-width: 100px;
-    line-height: 29.04px;
-}
-.area3 {
-    padding-left: 83px;
-    border-left: 1px solid #393939;
-    height: 106px;
-}
-.area3 i {
-    padding-right: 12px;
-}
-.area3 p:first-child{
-    margin-top: 0;
-}
 .footer-top {
     padding-top: 23px;
-    margin-right: 203px;
+    width: 80%;
+    margin: auto;
     border-bottom: 1px solid rgba(255, 255, 255, 0.15);;
     height: 60px;
 }
@@ -499,6 +464,39 @@ footer {
 .footer-bottom {
     font-size: 15px;
     color: #686868;
+    display: flex;
+    padding-top: 56px;
+    width: 80%;
+    margin: auto;
+}
+.area1 {
+    width: 32%;
+    height: 106px;
+    border-right: 1px solid #393939;
+    line-height: 26px;
+    padding-right: 5%;
+}
+.area2 {
+    width: 42%;
+    padding-left: 5%;
+    margin: 0 auto;
+    height: 150px;
+    column-count: 2;
+    column-gap: 69px;
+    column-width: 100px;
+    line-height: 29.04px;
+}
+.area3 {
+    width: 26%;
+    padding-left: 5%;
+    border-left: 1px solid #393939;
+    height: 106px;
+}
+.area3 i {
+    padding-right: 12px;
+}
+.area3 p:first-child{
+    margin-top: 0;
 }
 .footer-bottom a {
     color: #686868;
